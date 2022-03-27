@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.head{
+    flex-direction: row;
+    display: flex;
+    background-color: rgb(54, 54, 54);
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.head a{
+    padding: 2%;
+    text-decoration: none;
+    color: white;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.head a:hover{
+    text-decoration:underline;
+    color:rgb(74, 68, 146)
+}
+
+.image-logo{
+    width: 40px;
+    margin: 1.5%;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.carrousel h2{
+    color:rgb(54, 54, 54);
+    font-family: Roboto;
+    text-align: center;
+    margin: 2%;
+}
+
+.carrousel{
+    display: flex;
+    flex-direction: column;
+}
+
+.marcas{
+    flex-direction: row;
+    display: flex;
+}
+
+.box{
+    margin: 5px;
+    border: solid;
+    border-radius: 25px;
+    border-width: 1px;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box img{
+    width: 200px;
+}
+
+.box:hover{
+    background-color: rgb(10, 60, 100);
+    border-radius: 25px;
+    border: none;
+}
+
+.principal{
+    display: flex;
+    margin-top: 10px;
+    font-family: Roboto;
+    text-align: center;
+    color: rgb(54, 54, 54);
+    flex-direction: column;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+}
+
+.produto{
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 15px;
+}
+
+.produto img{
+    width:10ch;
+}
+
+.produto a{
+    display: block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(10, 60, 100);
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.produto a:hover{
+    display: block;
+    background-color: #FFF;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(10, 60, 100);
+    color: rgb(10, 60, 100);
+    margin-bottom: 0;
+}
